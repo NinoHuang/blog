@@ -1,4 +1,4 @@
-name: Nino blog demo
+name: Blog Build Action Flow
 on:
   push:
     branches:
