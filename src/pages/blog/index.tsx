@@ -37,7 +37,11 @@ const steps = [
   },
 ];
 
-export default function Blog(props) {
+type BlogProps = {  
+  id: number;
+}
+
+export default function Blog( props: BlogProps) {
   const [activeStep, setActiveStep] = useState(0);
   const router = useRouter();
 
