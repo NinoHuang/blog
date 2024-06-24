@@ -35,7 +35,7 @@ export default function About() {
           <Switch checked={active} />
         </Stack>
       </Card>
-      <Link href="/blog/2">To Blog</Link>
+      <Link href="/blog?id=2">To Blog</Link>
     </div>
   );
 }

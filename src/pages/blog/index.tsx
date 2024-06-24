@@ -44,16 +44,18 @@ type BlogProps = {
 export default function Blog( props: BlogProps) {
   const [activeStep, setActiveStep] = useState(0);
   const router = useRouter();
-
+  console.log(router);
+  console.log(router.query);
   useEffect(() => {
     if (router.isReady) {
       const { id } = router.query;
-      console.log(router.query);
+      
       if (id) {
         const step = parseInt(id.toString());
         setActiveStep(step);
       }
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [props.id]);
 
   const handleNext = () => {
