@@ -14,8 +14,10 @@
 2. using the mongodb to store the data
 3. using the swagger to generate the api document
 4. using the mongoexpress to manage the data 
-5. using the playwrite to test the whole webapp here
-6. 
+5. using the playwrite to test the whole webapp here, help the QA colleague to build test system and allow it to run automaticly
+6. using the husky to check the commit from the git 
+7. using the redux to manage the state from the whole app experience
+   
 
 
 ### For my next work I try to learn the new things
